@@ -1,15 +1,13 @@
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
-        <p>
-          Welcome to Git.....
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      
+        <Home/>       
+       
       </header>
     </div>
   );
